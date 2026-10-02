@@ -8,7 +8,7 @@ interface ImageCardProps {
   extension?: string;
 } 
 
-export  const ImageCard: React.FC<ImageCardProps> = ({imageName, imageUrl, imageSize, uploadDate, extension }) => {
+export  const ImageCard: React.FC<ImageCardProps>= ({imageName, imageUrl, imageSize, uploadDate, extension }) => {
   function downloadImage(){
     window.open(imageUrl, '_blank');
   }

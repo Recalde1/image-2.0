@@ -24,7 +24,8 @@ export default function Galeria() {
                  imageName = {image.name} 
                  imageUrl={image.url}
                  imageSize = {image.size}
-                 uploadDate={image.uploadDate} />
+                 uploadDate={image.uploadDate} 
+                 extension={image.extension}/>
     )
   }
 
